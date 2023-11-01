@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ejemplo.css">
+    <script defer src='./ejemplo.js'></script>
+    <title>Título</title>
+</head>
+
+<body>
+    <header id='cabecera' class='border-grey'>
+        <h1>Mi web/blog para trastear con el DOM</h1>
+    </header>
+
+    <nav class='border-grey'>
+        <ul>
+            <li><a href="#"> LINK 1</a></li>
+            <li><a href="#"> LINK 2</a></li>
+            <li><a href="#"> LINK 3</a></li>
+        </ul>
+    </nav>
+
+    <main id='main'>
+
+        <section id="seccion" class="border-grey">
+            <h2 id="tituloForm">Formulario de registro</h2>
+            <form id="formulario" class="border-grey register-form">
+                <input type="text" name="name" placeholder="Nombre" />
+                <input type="text" name="email" placeholder="Email" />
+                <input type="password" name="password" placeholder="Contraseña" />
+                <button>Registrarme</button>
+            </form>
+        </section>
+        <!--beforebegin-->
+        <section id='section' class="border-grey">
+            <!--afterbegin-->
+            <h2>Título de la sección</h2>
+            <article class='border-grey'>
+                <h3>Título del artículo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt maiores dolor sint voluptatibus possimus tenetur
+                    zeligendi ab optio veritatis culpa sit, obcaecati dolore.
+                    Accusantium laboriosam assumenda suscipit obcaecati provident quis!
+                </p>
+            </article>
+            <!--beforeend-->
+        </section>
+        <!--afterend-->
+    </main>
+    <footer class='border-grey'>
+        <p>Nos pareció un buen ejemplo de Desarrollo Útil</p>
+    </footer>
+</body>
+
+</html>
